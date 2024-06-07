@@ -1,84 +1,96 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>全球通史经典名言</title>
+    <title>海贼王经典人物</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
         }
-        h1 {
-            color: #333;
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
             text-align: center;
         }
-        .quote {
-            margin-bottom: 30px;
+        h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
             padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 10px;
+        }
+        .character {
             background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
         }
-        .quote p {
-            font-style: italic;
+        .character h2 {
+            color: #333;
+        }
+        .character img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
             margin-bottom: 10px;
+            border-radius: 5px;
         }
-        .quote .author {
-            text-align: right;
-            font-weight: bold;
+        .character p {
+            color: #666;
         }
     </style>
 </head>
 <body>
-<h1>全球通史经典名言</h1>
-
-<div class="quote">
-    <p>历史是人类的老师，它让我们从过去的错误中汲取教训，为未来铺设道路。</p>
-    <p class="author">—— 西塞罗</p>
-</div>
-
-<div class="quote">
-    <p>那些忘记历史的人注定会重蹈覆辙。</p>
-    <p class="author">—— 乔治·桑塔亚那</p>
-</div>
-
-<div class="quote">
-    <p>历史是国家的记忆，没有记忆的国家就像没有灵魂的躯壳。</p>
-    <p class="author">—— 埃德蒙·伯克</p>
-</div>
-
-<div class="quote">
-    <p>一切历史都是当代史，因为历史始终与我们的现实生活和未来息息相关。</p>
-    <p class="author">—— 本尼迪克特·克罗齐</p>
-</div>
-
-<div class="quote">
-    <p>历史是一面镜子，它反映出人类的智慧与愚蠢，进步与倒退。</p>
-    <p class="author">—— 托马斯·卡莱尔</p>
-</div>
-
-<div class="quote">
-    <p>历史不是一堆陈旧的记录，而是人类文明的连续性和创新性的体现。</p>
-    <p class="author">—— 威廉·麦克尼尔</p>
-</div>
-
-<div class="quote">
-    <p>历史不会重复，但总是惊人的相似，因此我们要从中汲取智慧，避免重蹈覆辙。</p>
-    <p class="author">—— 马克·吐温</p>
-</div>
-
-<div class="quote">
-    <p>历史不仅是过去的记录，更是未来的启示。</p>
-    <p class="author">—— 亨利·亚当斯</p>
-</div>
-
-<div class="quote">
-    <p>历史教会我们，没有什么是永恒的，但真理、正义和人类的精神是永恒的。</p>
-    <p class="author">—— 温斯顿·丘吉尔</p>
-</div>
-
+<header>
+    <h1>海贼王经典人物</h1>
+    <nav>
+        <ul>
+            <li><a href="#luffy">路飞</a></li>
+            <li><a href="#zoro">索隆</a></li>
+            <li><a href="#nami">娜美</a></li>
+            <li><a href="#sanji">山治</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="character" id="luffy">
+        <h2>蒙奇·D·路飞</h2>
+        <img src="luffy.jpg" alt="Monkey D. Luffy">
+        <p>蒙奇·D·路飞，是海贼王中的主人公，草帽海贼团的船长。他的目标是找到传说中的One Piece，成为海贼王。</p>
+    </div>
+    <div class="character" id="zoro">
+        <h2>罗罗诺亚·索隆</h2>
+        <img src="zoro.jpeg" alt="Roronoa Zoro">
+        <p>罗罗诺亚·索隆，是草帽海贼团的剑士，被誉为“世界第一剑豪”。他的目标是成为世界最强的剑士。</p>
+    </div>
+    <div class="character" id="nami">
+        <h2>娜美</h2>
+        <img src="nami.jpg" alt="Nami">
+        <p>娜美，是草帽海贼团的导航员和航海士，擅长绘制航海图和天气预报。她的梦想是绘制出世界上最完美的航海图。</p>
+    </div>
+    <div class="character" id="sanji">
+        <h2>山治</h2>
+        <img src="sanji.jpg" alt="Vinsmoke Sanji">
+        <p>山治，是草帽海贼团的厨师，擅长料理和踢击术。他的梦想是找到All Blue，成为世界最伟大的厨师。</p>
+    </div>
+</main>
 </body>
 </html>
